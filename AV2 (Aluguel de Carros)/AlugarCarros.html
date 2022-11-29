@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <h1>Alugar Carro</h1>
+        <ul>
+          <li><a href="inserirCarro.html">Inserir Carro</a></li>
+          <li><a href="BuscarCarros.html">Buscar Carros</a></li>
+          <li><a href="ListarCarros.html">Listar Carros</a></li>
+          <li><a href="AlugarCarros.html">Alugar Carros</a></li>
+        </ul>
+    <form>
+      <label for="nome">Nome:</label>
+      <input type="text" name="nome" id="nome">
+      <br>
+      <br>
+      <label for="cpf">CPF:</label>
+      <input type="text" name="cpf" id="cpf">
+      <br>
+      <br>
+      <label for="periodo">Periodo Aluguel:</label>
+      <select name="select">
+        <option value="1">1 Dia</option>
+        <option value="7">7 Dias</option>
+        <option value="14">14 Dias</option>
+        <option value="30">30 Dias</option>
+      </select>
+      <br>
+      <br>
+      <input type="button" name="envio" value="Enviar" onclick="AlugarCarro();">
+    </form>
+      <script src="index.js"></script> 
+  </body>
+</html>
